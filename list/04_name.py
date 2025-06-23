@@ -1,0 +1,12 @@
+Name = input("กรุณากรอกชื่อ : ")
+lname = input("กรุณากรอกนามสกุล : ")
+age = int(input("กรุณากรอกอายุ : "))
+birth = 2025-age
+work = input("กรุณากรอกอาชีพ : ") 
+address = input("กรุณากรอกที่อยู : ")
+print("การแนะนำตัว")
+print(f"ชื่อ {Name} นามสกุล {lname}")
+print(f"อายุ {age} นามสกุล {birth}")
+print(f"อาชีพ {work}")
+print(f"ที่อยู่ {address}")
+print("การแนะนำตัว")
